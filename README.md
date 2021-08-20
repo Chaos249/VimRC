@@ -1,51 +1,11 @@
-" CURRENT UP TO DATE VIMRC FILE 10-12-19
-
-set nocompatible
-
-" Ignore case when searching
-
-set ignorecase
-
-" Set to auto read when a file is changed from the outside
-
-set autoread
-
-" Sets how many lines of history VIM has to remember
-
-set history=500
-
-" Turn on the Wild menu
-
-set wildmenu
-
-" Configure backspace so it acts as it should act
-
-set backspace=eol,start,indent
-
-set whichwrap+=<,>,h,l
-
-" Highlight search results
-
-set hlsearch
-
-" No annoying sound on errors
-
-set noerrorbells
-
-set novisualbell
-
-set background=dark
-
-set number
-
+set autoindent
+set expandtab
+set shiftround
+set shiftwidth=4
 set tabstop=4
-
+set smarttab
 set ruler
-
-syntax on
-
-set showcmd
-
-color elflord
-
+"set number
+set history=1000
 set mouse=a
+"colo torte
